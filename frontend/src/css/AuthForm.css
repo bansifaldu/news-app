@@ -1,0 +1,894 @@
+/* AuthForm.css */
+.auth-container {
+    background-image: url('../images/login_background.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+}
+
+.auth-form h2 {
+    margin-bottom: 20px;
+}
+
+.auth-form input {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+
+
+/* Login.css */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+
+
+.loginBtn {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-link {
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Add more styles as needed */
+/* ------------------------------ */
+/* Login.css */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.loginBtn {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-link {
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.login-link {
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.registerBtn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add more styles as needed */
+
+
+/* Add this to your CSS file, or create a new CSS file for your NewsFeed component */
+
+.news-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.article-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.article-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.article-content {
+    h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+/* Add this to your CSS file, or create a new CSS file for your NewsFeed component */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.background-image {
+    background-image: url('../images/login_background.jpg');
+
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -20px;
+    /* Adjust this margin based on your header height */
+    position: relative;
+
+}
+
+.news-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.article-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.article-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.article-content {
+    h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: #c82333;
+    }
+}
+
+/* Add this to your CSS file or create a new one for header styling */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.profile-icon img {
+    width: 30px;
+    /* Adjust the width as needed */
+    height: 30px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+
+    &:hover {
+        background-color: #c82333;
+    }
+}
+
+/* Add this CSS to your existing styles or create a new CSS file */
+
+/* Search and Filtering Section */
+.search-filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-filters input,
+.search-filters select {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+/* Personalization Section */
+.personalization {
+    margin-top: 20px;
+}
+
+.personalization h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.personalization label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.personalization select {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* News Feed Section */
+.news-feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.article-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-content {
+    padding: 15px;
+}
+
+.article-content h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.article-content p {
+    margin-bottom: 10px;
+}
+
+.article-content a {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article-content a:hover {
+    text-decoration: underline;
+}
+
+.section-title {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px
+}
+
+/* src/NewsFeed.css */
+/* src/NewsFeed.css */
+.search-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 5px 20px;
+    width: 93%;
+}
+
+.search-filters input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 85%;
+}
+
+.search-filters select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: -5px;
+    color: rgb(117 117 117);
+}
+
+
+
+/* Add this to your existing CSS file or create a new one */
+.clear-filter-button {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: -5px;
+
+    &:hover {
+        background-color: #c82333;
+    }
+}
+
+.user-info {
+    margin-right: 5px;
+}
+
+/* Adjust the colors and styles based on your preferences */
+/* Add this to your existing CSS file or create a new one for header styling */
+
+/* Header.css */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    margin-right: 15px;
+    color: #fff;
+}
+
+.profile-icon {
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.profile-icon img {
+    width: 30px;
+    /* Adjust the width as needed */
+    height: 30px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Dropdown styling */
+.dropdown {
+    position: absolute;
+    top: 60px;
+    /* Adjust the top position as needed */
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown-item {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #f0f0f0;
+    }
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    /* align-item   s: center; */
+    height: auto;
+    /* Adjust as needed */
+    margin: 10px;
+}
+
+.form-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+
+    width: 100%;
+}
+
+.profile-title {
+    margin-top: 0px;
+}
+
+/* Add these styles to your existing stylesheet or create a new CSS file */
+
+
+
+
+.form-box {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-box label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.form-box input {
+    width: 97%;
+    padding: 8px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-box button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #45a049;
+}
+
+.form-box button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.user-preference-message {
+    background-color: wheat;
+}
+
+.preference-message {
+    margin: 0px;
+    padding: 10px;
+    margin-left: 15px
+}
+
+.header-link {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit the color from the parent */
+}
+
+.header-link:hover {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit the color from the parent */
+}
+
+/* Add this CSS to your styles file or component */
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust the height based on your layout */
+}
+
+.loader {
+    border: 5px solid black;
+    /* Light gray */
+    border-top: 16px solid black;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Add this CSS to your stylesheet */
+
+.user-preference-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: 9px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #4caf50;
+    /* Green when toggled */
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #4caf50;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.toggleMessage {
+    margin-right: 10px;
+}
+
+.preference-block {
+    width: 30%;
+}
+
+.preference-toggle-message {
+    width: 65%;
+    float: left;
+}
+.no-data{
+    background: black;
+padding: 25px;
+margin: 3% 22%;
+width: 50%;
+text-align: center;
+color: wheat;
+border-radius: 112px;
+}
+.form-field {
+    margin-top: 10px;
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .search-filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .search-filters input{
+        margin-bottom: 10px;
+        margin-right: 0px;
+        width: 92%;
+    }
+    
+    .search-filters select {
+        margin-bottom: 10px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .searchInput{
+        margin-bottom: 5px !important;
+    }
+     
+}
+
+@media (max-width: 768px) {
+    .user-preference-message {
+        display: block;
+    }
+
+    .preference-block {
+        border-top: 1px solid lightgray;
+    }
+
+    .preference-block,
+    .preference-toggle-message {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .toggle-switch {
+        margin-top: 10px;
+    }
+
+    .slider {
+        width: 50px;
+        height: 28px;
+    }
+
+    .slider:before {
+        height: 22px;
+        width: 22px;
+    }
+
+    .toggle-switch {
+        margin-top: 0px !important;
+    }
+
+    input:checked+.slider:before {
+        transform: translateX(20px);
+    }
+
+    .search-filters {
+        margin: 5px;
+        width: 90%;
+    }
+    .news-feed{
+        margin: 0px;
+    }
+    .article-card{
+        margin: 0px;
+        width: 90%;
+    }
+    .clear-filter-button {
+        margin-left: 0px;
+    }
+    .news-feed{
+        padding: 5px;
+    }
+    .no-data {
+        background: black;
+        padding: 1px;
+        margin: 3% 2%;
+        width: 95%;
+        text-align: center;
+        color: wheat;
+        border-radius: 112px;
+    }
+    .header-left {
+display: block;
+text-align: left;
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 22px;
+    }
+    .logo{
+        width: 50%;
+    }
+    .profile-icon{
+        margin-right: 0px;
+    }
+    .form-box {
+        width: 97%;
+    }
+}
+.ml-5{
+    margin-left: 5px;
+    
+}
+.back-btn{
+    background-color:black !important;
+    color: wheat;
+}
